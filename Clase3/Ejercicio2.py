@@ -13,7 +13,7 @@ kg = float(kg)
 estatura = estatura**2
 
 masaCorporal = round(kg / estatura, 2)
-#masaCorporal = round(masaCorporal, 2)
+
 masaCorporal = str(masaCorporal)
 
 print('Tu índice de masa corporal es ' + masaCorporal)
