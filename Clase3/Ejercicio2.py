@@ -5,9 +5,7 @@
 #Tienes que subir capturas de pantalla en una carpeta comprimida zip.
 
 kg = input('Ingrese su peso en kg')
-68
 estatura = input('Ingrese su estatura en mts')
-1.71
 
 estatura = float(estatura)
 kg = float(kg)
