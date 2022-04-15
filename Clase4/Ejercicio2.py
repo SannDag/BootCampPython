@@ -7,7 +7,7 @@ numero_final: int = int(input("Ingrese el segundo numero: "))
 numeros_impares: [int] = []
 
 while numero_final <= numero_inicial:
-    numero_final: int = int(input("El segundo numero debe sermayor al primero. Ingrese otro numero: "))
+    numero_final: int = int(input("El segundo numero debe ser mayor al primero. Ingrese otro numero: "))
 
 for i in range(numero_inicial, numero_final+1):
     if(i % 2 == 1):
