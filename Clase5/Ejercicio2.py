@@ -1,7 +1,6 @@
 #Escribe una función que pueda decirte si un número (número entero) es primo o no.
 
-num: int = 0
-print(input("Ingrese un numero entero: "))
+num: int = int(input('Introduce un número entero: '))
 
 def es_primo(num):
     for n in range(2, num):
